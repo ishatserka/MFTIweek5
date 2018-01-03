@@ -1,5 +1,19 @@
-'''
-Created on 3 џэт. 2018 у.
+import datetime
 
-@author: Shatserka_I
-'''
+
+class Client:
+    def get(self, *keys):
+        pass
+    
+    def put(self, key, value, timestp = None):
+        test_time_str = str(timestp or datetime.datetime.microsecond())
+        
+        pass
+    
+    
+
+
+
+class ClientError(BaseException):
+    pass
+
